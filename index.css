@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(97, 128, 160);
+    padding: 10px;
+    text-align: center;
+}
+.peddle{
+    display: block;
+}
+.main{
+    margin: 2%;
+}
+button{
+    color:indianred;
+    font-weight: bold;
+    font-size: 16px;
+    font-style: oblique;
+    padding: 5px;
+}
+.main :hover{
+    background-color: brown;
+}
+.card, .card2, .card3, .card4, .card5, .card6{
+    padding: 20px;
+    display: inline-block;
+    color: whitesmoke;
+    display: inline-block;
+    line-height: 1.8;
+    border-radius: 25px;
+    margin:30px;
+}
+.card ul{
+    border: 1px solid green;
+    background-image:linear-gradient(indianred, brown, rgb(170, 185, 103));
+    text-align: center;
+    padding: 30px;
+    list-style: none;
+    width: 50%;
+    height: 180%;
+}
+.card2 ul{
+    border: 1px solid green;
+    background-image:linear-gradient(rgb(205, 184, 92), rgb(71, 165, 42), rgb(103, 185, 144));
+    text-align: center;
+    padding: 30px;
+    list-style: none;
+    border-radius: 30px;
+    width: 40%;
+    height: 180%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+}
+.words{
+    text-transform: capitalize;
+}
+.card3 ul{
+    border: 1px solid green;
+    background-image:linear-gradient(rgb(92, 205, 135), rgb(42, 147, 165), rgb(118, 103, 185));
+    text-align: center;
+    padding: 40px;
+    list-style: none;
+    border-radius: 70%;
+    font-family: 'Courier New', Courier, monospace;  
+}
+.card4 ul{
+    border: 1px solid green;
+    background-image:linear-gradient(rgb(92, 205, 199), rgb(42, 91, 165), rgb(159, 103, 185));
+
+    padding: 10%;
+    list-style: none;
+    border-radius: 40%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card5 ul{
+    border: 1px solid green;
+    background-image:radial-gradient( rgb(60, 62, 63), rgb(145, 133, 142), rgb(179, 186, 218));
+    padding: 10%;
+    list-style: none;
+    border-radius: 20%;
+    font-family:fantasy;
+}
+.completed{
+    text-transform: uppercase;
+}
+
+.card6 ul{
+    border: 1px solid green;
+    background-image:radial-gradient(indianred, brown, rgb(170, 185, 103), whitesmoke, green);
+    padding: 30px;
+    list-style: none;
+    border-radius: 30px;
+    color:black !important;
+    font-size: 20px;
+}
+.mails{
+    text-transform: lowercase;
+}
+.mails, .location{
+    cursor: pointer;
+}
+
