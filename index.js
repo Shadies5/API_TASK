@@ -17,6 +17,9 @@ function myPosts() {
         document.getElementById('posts').innerHTML = posts;
     });
 }
+window.onload = function() {
+    myPosts();
+};
 
 function myComments() {
     fetch('https://jsonplaceholder.typicode.com/comments')
